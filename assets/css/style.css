@@ -1,0 +1,55 @@
+@import url('../style/header/style.css');
+@import url('../style/main/cards/style.css');
+
+
+:root{
+    --blue:#1d3557;
+    --blueCyan:#03dac6;
+    --bluegreen:#264653;
+    --blueGreendark:#018786;
+    --fontDefault:#fff;
+    --whiteCard:#f1faee;
+
+    --vine:#b00020;
+}
+body{
+    background: var(--bluegreen);
+    color: var(--fontDefault);
+    padding: 8px 0;
+}
+.body__margin{
+    margin: 0 auto;
+    width: 90%;
+}
+.content{
+    text-align: center;
+}
+.content .content__card{
+    background: #4570fd4e;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.plan,.send{
+    background: var(--vine);
+    color: var(--fontDefault);
+    padding: .5em 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.5s;
+    outline: none;
+    margin: 5px auto;
+}
+button.plan:hover,.send:hover{
+    background: white;
+    transform: scale(.9);
+    color: #000;
+}
+input{
+    background: #ffffffa3;
+    border: none;
+    border-radius: 50px 10px 10px 10px;
+    text-align: center;
+    outline: none;
+    padding: 0 8px;
+}
